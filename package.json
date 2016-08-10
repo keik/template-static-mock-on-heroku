@@ -1,0 +1,22 @@
+{
+  "name": "template-static-mock-on-heroku",
+  "version": "1.0.0",
+  "description": "Template for mocking static web site and deploying on heroku",
+  "scripts": {
+    "start": "http-server dist",
+    "postinstall": "make"
+  },
+  "author": "keik <k4t0.kei@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "node-sass": "^3.8.0",
+    "watchf": "^0.1.3",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.6.3",
+    "http-server": "^0.9.0"
+  },
+  "private": true
+}
